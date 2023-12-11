@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.fråontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttR). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -10,8 +10,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-
-
 
 ## Overview
 
@@ -27,15 +25,14 @@ Users should be able to:
 ### Desktop View
 ![](./images/Frontend-Mentor-Product-preview-card-component1.png)
 
-###~ Mobile View 
+### Mobile View 
 ![](./images/Frontend-Mentor-Product-preview-card-componentp2.png)
-
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend solution URL here](https://www.frontendmentor.io/solutions/frontend-mentor-product-preview-card-component-3F38A4oQnU)
+- Live Site URL: [Github Pages]( https://josephlord215.github.io/Frontend-Mentor-Product-preview-card-component/)
 
 
 ### Built with
@@ -44,16 +41,11 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@JosephLord215](https://www.frontendmentor.io/profile/JosephLord215)
+- Linkedin - [Joseph Lord](https://www.linkedin.com/in/joseph-lord/)
 
