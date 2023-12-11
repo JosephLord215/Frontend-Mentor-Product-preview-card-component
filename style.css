@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root {
+	--primary-color-cyan: hsl(158, 36%, 37%);
+	--primary-color-cream: hsl(30, 38%, 92%);
+	--secordary-color-dark-blue: hsl(212, 21%, 14%);
+	--secordary-color-grayish-blue: hsl(228, 12%, 48%);
+	--white: hsl(0, 0%, 100%);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: grid;
+	place-items: center;
+	background-color: var(--primary-color-cream);
+}
+
+.card {
+	overflow: hidden;
+	display: flex;
+	background-color: var(--white);
+	border-radius: 1.25rem;
+}
+
+.content h4 {
+	letter-spacing: 0.5rem;
+	text-transform: uppercase;
+	color: var(--secordary-color-grayish-blue);
+	font-weight: 500;
+	margin-bottom: 1.25rem;
+	font-family: 'Montserrat', sans-serif;
+}
+.content h1 {
+	color: var(--secordary-color-dark-blue);
+	font-weight: 700;
+	margin-bottom: 1.25rem;
+	font-family: 'Fraunces', serif;
+}
+.content p {
+	color: var(--secordary-color-grayish-blue);
+	margin-bottom: 1.25rem;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.prices {
+	display: flex;
+	gap: 20px;
+}
+
+.prices h2 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: var(--primary-color-cyan);
+	font-family: 'Fraunces', serif;
+}
+
+.prices p {
+	color: var(--secordary-color-grayish-blue);
+	text-decoration: line-through;
+	padding-top: 1rem;
+}
+
+button {
+	background-color: var(--primary-color-cyan);
+	width: 100%;
+	padding: 1.2rem;
+	border-radius: 0.625rem;
+	font-family: 'Montserrat', sans-serif;
+	color: var(--white);
+}
+
+.button img{
+	margin-left: 2px;
+}
+
+/* mobile */
+
+@media (max-width: 500px) {
+	.container {
+		height: 100vh;
+		width: 100%;
+	}
+	.card {
+		flex-direction: column;
+		width: 20rem;
+	}
+	.content{
+		margin: 1.25rem;
+	}
+	.perfumeImg {
+		content: url('./images/image-product-mobile.jpg');
+	}
+}
+
+/* desktop */
+
+@media (min-width: 501px) {
+	.container {
+		height: 100vh; /* use 100% of the height of the viewport */
+	}
+	.card {
+		flex-direction: row;
+		width: 45rem;
+		border-radius: 1.25rem;
+		height: 60vh;
+	}
+	.content {
+		margin: 3.125rem 3.125rem;
+		width: 30rem;
+	}
+
+	.perfumeImg {
+		content: url('./images/image-product-desktop.jpg');
+		width: 100%;
+		height: auto;
+	}
+}
